@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
-public class CartActivity extends AppCompatActivity {
+public class activity_cart extends AppCompatActivity {
     private RecyclerView recyclerView;
     private CartAdapter adapter;
     private ArrayList<Perfume> cartItems;

@@ -13,7 +13,7 @@
             android:id="@+id/imgPerfumeDetail"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/default_image"
+            android:src="@drawable/perfume1"
             android:scaleType="centerCrop"/>
 
         <TextView

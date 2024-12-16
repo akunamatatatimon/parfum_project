@@ -10,8 +10,6 @@ import android.widget.TextView;
 import android.widget.ImageButton;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.lab_project.Perfume;
-
 import java.util.ArrayList;
 
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder> {
@@ -25,7 +23,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
 
     @Override
     public CartViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_cart, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_item_cart, parent, false);
         return new CartViewHolder(view);
     }
 
@@ -43,7 +41,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
                 cartItems.remove(position);
                 notifyItemRemoved(position);
                 // Update total amount
-                ((CartActivity) context).updateTotal();
+                ((activity_cart) context).updateTotal();
             }
         });
     }

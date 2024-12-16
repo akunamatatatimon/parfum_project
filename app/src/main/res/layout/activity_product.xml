@@ -13,6 +13,7 @@
         android:id="@+id/product_image"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:src="@drawable/perfume1"
         android:scaleType="centerCrop"
         android:layout_marginEnd="16dp" />
 
@@ -28,6 +29,7 @@
             android:id="@+id/product_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Dior savage"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginBottom="4dp" />
@@ -37,6 +39,7 @@
             android:id="@+id/product_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="вравыа"
             android:textSize="14sp"
             android:textColor="#666666"
             android:layout_marginBottom="8dp" />
@@ -46,6 +49,7 @@
             android:id="@+id/product_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="500 р"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="#FF5722" />

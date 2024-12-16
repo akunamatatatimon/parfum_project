@@ -17,7 +17,7 @@
             android:id="@+id/imgPerfume"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/default_image"/>
+            android:src="@drawable/perfume1"/>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -42,6 +42,8 @@
                 android:textSize="14sp"/>
 
         </LinearLayout>
+
+
 
     </LinearLayout>
 
