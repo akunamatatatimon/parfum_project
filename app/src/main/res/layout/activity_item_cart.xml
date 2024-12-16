@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgPerfumeCart"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/perfume1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/txtPerfumeNameCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supreme Vanilla"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtPriceCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="600.00 ₽"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
